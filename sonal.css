@@ -1,0 +1,243 @@
+header{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-left: 110px;
+}
+.logo span{
+    color: #e67e22;
+}
+.sonal{
+    width: 20px;
+    height: 100%;
+    margin-right: 800px;
+}
+nav{
+    width: 100%;
+    height: 8em;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.menu{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .menu a{
+    text-decoration: none;
+    color: #232323;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  .menu a:first-child{
+    color: #e67e22;
+  }
+  .menu a:hover{
+    color: #e67e22;
+  }
+  .search {
+    position: relative;
+    
+  }
+  .search input{
+    padding: 10px 20px;
+    border:1px solid grey ;
+    border-radius: 15px;
+    outline: none;
+}
+#icon{
+    position: absolute;
+    right: 0;
+    padding: 10px 20px;
+    }
+    #mode{
+        padding: 10px 20px;
+        font-size: 1.6rem;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+    .container{
+        width: 100%;
+         display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        flex-basis: 40%;
+    }
+    .right{
+        flex-basis: 50%;
+    }
+    .right img{
+        width: 100%;
+    }
+    .left h1{
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+    .left p{
+        line-height: 2.2em;
+    }
+    .left h1 span{
+    color: #e67e22; 
+    font-size: 1em;
+    }
+    .left a{
+        text-decoration: none;
+        color: white;
+        background: #e67e22;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+    .icons {
+        margin-top: 15px;
+        font-size: 2em;
+        color: #232323;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .icons :hover{
+        background: #e67e22;
+        color: white;
+        border-radius: 20%;
+    }
+     .icons i:last-child{
+        color: white;
+        background: #1b00c8;
+        border-radius: 20%;
+    } 
+    .btn :hover{
+        background: #2922e6;
+        color: white;
+        border-radius: 20%;
+    }
+    .box{
+        background-color: white;
+       }
+       .box:hover {
+        animation-name: rotate;
+        animation-duration: 0.90s;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @keyframes rotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    @media only screen and (max-width: 770px)
+     {
+        .logo{
+          width: 100%;
+          text-align: center;
+          font-size: 2.5em; 
+          margin-left: 30px; 
+        }
+        .sonal{
+            margin-right: 580px;
+            height: 1200px;
+                width: 250px;
+        }
+        .search{
+            display: none;
+        }
+        #mode{
+            display: none;
+        }
+        .nav{
+            padding: 0 15px;
+        }
+        .menu{
+            width: 100%;
+            text-align: center;
+        }
+         .container{
+            text-align: center;
+            padding: 20px 40px;
+            flex-direction: column-reverse;
+
+        } 
+      }
